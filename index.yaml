@@ -13,7 +13,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.86.1
-    created: "2025-11-04T12:11:43.120852798+03:30"
+    created: "2025-11-04T13:14:35.180912392+03:30"
     dependencies:
     - condition: crds.enabled
       name: crds
@@ -78,6 +78,6 @@ entries:
     - https://github.com/prometheus-operator/kube-prometheus
     type: application
     urls:
-    - kube-prometheus-stack-58.0.0-custom.tgz
+    - https://sahere-rahimi.github.io/myrepo/kube-prometheus-stack-58.0.0-custom.tgz
     version: 58.0.0-custom
-generated: "2025-11-04T12:11:43.083971965+03:30"
+generated: "2025-11-04T13:14:35.143558907+03:30"
